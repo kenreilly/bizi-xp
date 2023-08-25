@@ -1,0 +1,17 @@
+{
+  "name": "bizia-experimental",
+  "version": "1.0.0",
+  "description": "Experimental development channel of Bizia using Node",
+  "main": "src/bizia.js",
+  "scripts": {
+    "test": "node ./dist/test/server-init.js"
+  },
+  "keywords": [
+    "Bizia"
+  ],
+  "author": "8_bit_hacker",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.1.7"
+  }
+}

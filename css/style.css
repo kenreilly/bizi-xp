@@ -1,0 +1,46 @@
+:root {
+	--color-main: #ffffff;
+	--color-alt: #d0d0d0;
+}
+
+html, body { 
+	background: #000000;
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: content-box;
+	overflow: none;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+.node {
+	border: 2px solid var(--color-main);
+	border-radius: 50%;
+	height: 24px;
+	width: 24px;
+}
+
+.header {
+	height: 4vh;
+	border: 1px solid yellow;
+}
+
+.terminal {
+	height: 16vh;
+	border: 1px solid magenta;
+}
+
+.viewport {
+	height: 80vh;
+	border: 1px solid cyan;
+}
+
+.header,
+.terminal,
+.viewport {
+	width: 100vw;
+	border-bottom: none;
+}
